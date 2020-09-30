@@ -7,9 +7,6 @@ Package.describe({
 
 
 Package.onUse(function (api) {
-  // Minimum Meteor version
-  api.versionsFrom('METEOR@1.6');
-
   // Meteor dependencies
   api.use('check');
   api.use('coffeescript');
